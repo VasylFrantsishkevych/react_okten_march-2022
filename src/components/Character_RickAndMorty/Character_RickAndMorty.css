@@ -1,0 +1,11 @@
+.card {
+    border: 2px solid green;
+    width: 15%;
+    padding: 5px;
+}
+.card h1, p {
+    text-align: center;
+}
+.card img {
+    width: 100%;
+}
