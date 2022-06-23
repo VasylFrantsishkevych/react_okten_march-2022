@@ -1,0 +1,7 @@
+.user {
+    display: flex;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 7px 0;
+    justify-content: space-between;
+}

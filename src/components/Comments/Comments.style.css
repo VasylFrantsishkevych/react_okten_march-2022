@@ -1,0 +1,11 @@
+.comments {
+    border: 2px solid cadetblue;
+    padding: 5px;
+    width: 50%;
+}
+.comments__details {
+    width: 50%;
+    border: 2px solid cadetblue;
+    margin-left: -2px;
+    padding: 5px;
+}

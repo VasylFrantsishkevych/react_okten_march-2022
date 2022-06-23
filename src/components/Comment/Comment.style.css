@@ -1,0 +1,5 @@
+.comment__name {
+    display: flex;
+    justify-content: space-between;
+    margin: 7px 0;
+}

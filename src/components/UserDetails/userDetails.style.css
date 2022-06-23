@@ -1,0 +1,7 @@
+.userDetails__address {
+    display: flex;
+    justify-content: center;
+}
+.userDetails {
+    text-align: center;
+}
