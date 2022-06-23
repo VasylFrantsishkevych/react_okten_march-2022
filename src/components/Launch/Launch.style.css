@@ -1,0 +1,13 @@
+.launch {
+    width: 23%;
+    box-shadow: 0 0 10px cadetblue;
+    padding: 5px;
+    border-radius: 15px;
+}
+.launch h3 {
+    text-align: center;
+}
+.image {
+    display: flex;
+    justify-content: center;
+}
