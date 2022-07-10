@@ -3,3 +3,4 @@ export * from './Comment/Comment';
 export * from './Menu/Menu';
 export * from './Layout/Layout';
 export * from './Todo/Todo';
+export * from './Post/Post';

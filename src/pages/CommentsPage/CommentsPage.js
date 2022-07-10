@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import {Outlet} from "react-router-dom";
 
 import {commentService} from "../../services";
 import {Comment} from "../../components";
@@ -13,11 +14,16 @@ const CommentsPage = () => {
     }, [])
 
     return (
-        <div className={'comments'}>
-            {
-                comments.map(comment => <Comment key={comment.id} comment={comment}/>)
-            }
-        </div>
+        <>
+            <div>
+                <Outlet/>
+            </div>
+            <div className={'comments'}>
+                {
+                    comments.map(comment => <Comment key={comment.id} comment={comment}/>)
+                }
+            </div>
+        </>
 
     );
 };
