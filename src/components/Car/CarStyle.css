@@ -1,0 +1,13 @@
+.car {
+    border: 2px solid cornflowerblue;
+    width: 20%;
+    padding: 8px;
+}
+.car h3 {
+    text-align: center;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
