@@ -1,0 +1,8 @@
+.comments {
+    margin-top: 20px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 13px;
+}

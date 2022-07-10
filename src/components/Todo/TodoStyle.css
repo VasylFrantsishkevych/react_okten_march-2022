@@ -1,0 +1,9 @@
+.todo {
+    width: 24%;
+    box-shadow: 0 0 5px grey;
+    padding: 4px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
