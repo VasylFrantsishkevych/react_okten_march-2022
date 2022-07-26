@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: center;
+    height: 65px;
+    column-gap: 25px;
+    box-shadow: 0 0 10px cadetblue;
+    align-items: center;
+}
+.header a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: grey;
+}
+.header a:hover {
+    color: blueviolet;
+}

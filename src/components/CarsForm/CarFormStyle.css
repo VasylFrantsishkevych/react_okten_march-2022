@@ -1,0 +1,9 @@
+.car_form {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.car_form form {
+    display: flex;
+    column-gap: 15px;
+}
